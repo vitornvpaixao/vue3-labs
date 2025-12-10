@@ -10,4 +10,4 @@ Playground to learn and practice Vue 3, Composition API, frontend architecture, 
 
 ## Labs
 
-- [01-course-yt-basics](./01-course-yt-basics) – Following [this Vue 3 course](https://www.youtube.com/watch?v=VeNfHj6MhgA) + my own extensions.
+- [01-course-vue3-basics](./01-course-vue3-basics) – Following [this Vue 3 course](https://www.youtube.com/watch?v=VeNfHj6MhgA) + my own extensions.

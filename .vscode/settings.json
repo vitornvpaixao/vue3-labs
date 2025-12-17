@@ -13,12 +13,10 @@
 	},
 	"prettier.requireConfig": true,
 	"prettier.configPath": "./vue3-basics/.prettierrc",
-	"prettier.workingDirectory": [
-		{
-			"directory": "vue3-basics",
-			"changeProcessCWD": true
-		}
-	],
-	"[vue]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
-	"[javascript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" }
+	"[vue]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	}
 }

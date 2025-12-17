@@ -1,10 +1,24 @@
 {
-  "editor.formatOnSave": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
-  },
-
-  "vue.enableTakeOverMode": true
+	"editor.formatOnSave": true,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": "explicit"
+	},
+	"editor.wordWrap": "on",
+	"javascript.preferences.quoteStyle": "single",
+	"javascript.suggest.autoImports": true,
+	"eslint.format.enable": false,
+	"files.associations": {
+		"*.js": "javascript"
+	},
+	"prettier.requireConfig": true,
+	"prettier.configPath": "./vue3-basics/.prettierrc",
+	"prettier.workingDirectory": [
+		{
+			"directory": "vue3-basics",
+			"changeProcessCWD": true
+		}
+	],
+	"[vue]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+	"[javascript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" }
 }

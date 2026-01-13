@@ -11,12 +11,12 @@
 					<div class="md:ml-auto h-10">
 						<div class="flex space-x-2">
 							<a
-								href="#"
+								href="/"
 								class="text-white bg-green-900 hover:bg-gray-900 hover:text-white rounded-md px-3 py-2"
 								>Home</a
 							>
 							<a
-								href="#"
+								href="/jobs"
 								class="text-white bg-green-900 hover:bg-gray-900 hover:text-white rounded-md px-3 py-2"
 								>Jobs</a
 							>

@@ -2,12 +2,12 @@
 	<div :class="`${cardBgColor} p-6 rounded-lg shadow-md`">
 		<h2 v-if="cardTitle !== ''" class="text-2xl font-bold">{{ cardTitle }}</h2>
 		<p v-if="cardTitle !== ''" class="mt-2 mb-4">{{ cardDetails }}</p>
-		<a
+		<RouterLink
 			v-if="cardTitle !== ''"
-			href="#"
+			:to="cardRoute"
 			:class="`${cardBtnColor} rounded-lg bg-black text-white py-2 px-4 inline-block`"
-			>{{ cardBtnDetails }}</a
-		>
+			>{{ cardBtnDetails }}
+		</RouterLink>
 
 		<slot></slot>
 	</div>
@@ -15,6 +15,7 @@
 
 <script setup>
 	import { defineProps } from 'vue';
+	import { RouterLink } from 'vue-router';
 
 	defineProps({
 		cardTitle: {
@@ -36,6 +37,10 @@
 		cardBtnColor: {
 			type: String,
 			default: 'bg-black',
+		},
+		cardRoute: {
+			type: String,
+			default: '/',
 		},
 	});
 </script>

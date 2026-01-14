@@ -27,9 +27,9 @@
 							</RouterLink>
 
 							<RouterLink
-								to="/jobs/add"
+								to="/notFound"
 								:class="[
-									isActiveLink('/jobs/add') ? 'bg-green-900' : 'hover:bg-gray-900 hover:text-white',
+									isActiveLink('/notFound') ? 'bg-green-900' : 'hover:bg-gray-900 hover:text-white',
 									'text-white',
 									'rounded-md',
 									'px-3',

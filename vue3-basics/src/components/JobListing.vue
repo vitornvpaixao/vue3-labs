@@ -24,11 +24,11 @@
 					{{ job.location }}
 				</div>
 
-				<a
-					href="#"
+				<RouterLink
+					:to="'/jobs/' + job.id"
 					class="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-lg text-center text-sm flex items-center justify-center"
-					>Read More</a
-				>
+					>Read More
+				</RouterLink>
 			</div>
 		</div>
 	</div>

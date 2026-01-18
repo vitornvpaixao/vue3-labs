@@ -114,7 +114,6 @@
 		try {
 			const response = await axios.get(`/api/jobs/${jobId}`);
 			state.job = response.data;
-			console.log(state);
 		} catch (error) {
 			console.error('Error fetching job', error);
 		} finally {

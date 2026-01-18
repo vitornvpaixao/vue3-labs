@@ -101,13 +101,13 @@
 	const route = useRoute();
 	const jobId = route.params.id;
 	const state = reactive({
-		job: [],
+		job: {},
 		isLoading: true,
 	});
 
 	onMounted(async () => {
 		try {
-			const response = await axios.get(`http://localhost:8000/jobs/${jobId}`);
+			const response = await axios.get(`/api/jobs/${jobId}`);
 			state.job = response.data;
 			console.log(state);
 		} catch (error) {

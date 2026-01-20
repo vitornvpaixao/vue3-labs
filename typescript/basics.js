@@ -1,4 +1,5 @@
 "use strict";
+// Type Annotation | Basics
 let id = 5;
 let company = 'vp enterprises';
 let isPublished = true;

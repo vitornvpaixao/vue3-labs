@@ -1,3 +1,5 @@
+// Type Annotation | Basics
+
 let id: number = 5;
 let company: string = 'vp enterprises';
 let isPublished: boolean = true;

@@ -25,15 +25,15 @@ interface UserIdentity {
 	email: string;
 }
 
-type Employe = BussinessPartner & UserIdentity;
+type Employee = BussinessPartner & UserIdentity;
 
-const signContract = (employe: Employe): void => {
+const signContract = (employee: Employee): void => {
 	console.log(
-		'Contract signed by ' + employe.name + ' with the following email: ' + employe.creditScore,
+		'Contract signed by ' + employee.name + ' with the following email: ' + employee.creditScore,
 	);
 };
 
-const clientJhon: Employe = {
+const clientJhon: Employee = {
 	id: 1,
 	name: 'Jhon',
 	email: 'jhon@a.pt',

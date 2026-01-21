@@ -5,8 +5,8 @@ const printID = (id) => {
 };
 printID(23234548483); // Accept numbers
 printID('23234548483'); // Accepts strings
-const signContract = (employe) => {
-    console.log('Contract signed by ' + employe.name + ' with the following email: ' + employe.creditScore);
+const signContract = (employee) => {
+    console.log('Contract signed by ' + employee.name + ' with the following email: ' + employee.creditScore);
 };
 const clientJhon = {
     id: 1,
